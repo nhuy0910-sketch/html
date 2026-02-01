@@ -3,9 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>Chuyện cũ kể lại – Sự tích món ngon</title>
+     <div class="logo">LOGO</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="menu.html">Sản phẩm</a></li>
+                <li><a href="cart.html">Giỏ hàng</a></li>
+                <li><a href="story.html">Liên hệ</a></li>
+            </ul>
+        </nav>
   </head>
   <body>
-    <header>
+    <header class="container">
       <img
         src="images/cauchuyenngayxuan.jpg"
         alt="Câu chuyện ngày xuân"
@@ -17,16 +26,15 @@
       </blockquote>
       <hr />
     </header>
-    <main>
-      <article>
-        <div>
+    <main class="container">
+      <div class="grid">
+        <article class="card">
           <h1>Sự Tích BÁNH CHƯNG</h1>
           <blockquote>
             “Thịt mỡ dưa hành câu đối đỏ <br />
             Cây nêu tràng pháo bánh chưng xanh”
           </blockquote>
           <img src="images/banhchung.jpg" alt="Bánh chưng" width="200" />
-
           <p>
             Ngày xưa, đời Vua Hùng Vương thứ 6, sau khi đánh dẹp xong giặc Ân,
             vua có ý định truyền ngôi cho con. Nhân dịp đầu Xuân, vua họp các
@@ -64,7 +72,7 @@
         </div>
       </article>
       <hr />
-      <article>
+      <article class="card">
         <div>
           <h1>Sự tích TÁO QUÂN về trời</h1>
 
@@ -192,7 +200,7 @@
 
       <hr />
 
-      <article>
+      <article class="card">
         <div>
           <h1>Ý nghĩa Bao Lì Xì</h1>
 
@@ -235,7 +243,7 @@
       </article>
       <hr />
     </main>
-    <footer>
+    <footer class="container">
       <!-- PHẦN GỢI Ý CUỐI TRANG (FORM) -->
     </footer>
   </body>
